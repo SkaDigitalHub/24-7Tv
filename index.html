@@ -71,11 +71,11 @@
         .scrolling-text {
             position: absolute;
             white-space: nowrap;
-            animation: scroll 30s linear infinite;
+            animation: scroll 50s linear infinite;
             color: white;
             font-size: 16px;
             line-height: 50px;
-            padding-left: 100%;
+            padding-left: 0;
         }
 
         .logo {
@@ -86,6 +86,7 @@
             height: 16px;
             width: auto;
             z-index: 1;
+            background-color: red;
         }
 
         @keyframes scroll {
@@ -188,7 +189,7 @@
         <div class="video-container">
             <iframe id="videoFrame" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <div class="scrolling-text-container">
-                <img src="/api/placeholder/50/16" alt="GRWC Tv" class="logo">
+                <img src="grwc.png" alt="GRWC Tv" class="logo">
                 <div class="scrolling-text">
                     Welcome to GRWC Tv! Here we transmit the Experience of His Presence Glory and Revelation to the Gathering of men! Stay tune as you Experience The Lord JESUS to be transformed into a king of the word...
                 </div>
